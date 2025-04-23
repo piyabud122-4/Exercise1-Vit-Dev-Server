@@ -4,9 +4,76 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Exercise2</title>
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
+    <header>
+      <h2>Exercise 2 - My Resume</h2>
+    </header>
 
+    <main>
+      <section class="profile">
+        <img src="./src/img/IMG_8975.JPG" alt="My Profile">
+        <h3>Piyabud Deejamala</h3>
+      </section>
+
+      <div class="education-skills">
+        <section>
+          <table>
+            <caption><h3>My Education</h3></caption>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Curriculum </th>
+                <th>Institute</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>2017-2023</th>
+                <td>Computer Program</td>
+                <td>Muangphonpittayakom School</td>
+              </tr>
+              <tr>
+                <th>2023–Now</th>
+                <td>Computer Engineering</td>
+                <td>Khon Kaen University</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Assembly</li>
+          </ul>
+        </section>
+      </div>
+
+      <section>
+        <h3>My Project Demo</h3>
+        <video controls>
+          <source src="./src/video/Fighter's%20Destiny.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section class="contact">
+        <h3>Contact</h3>
+        <p>My <a href="https://github.com/piyabud122-4/ZIP2025-Exercise.git">Github</a></p>
+      </section>
+    </main>
   </body>
 </html>
