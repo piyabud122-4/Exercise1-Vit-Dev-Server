@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercise 4 - CSS Layout</title>
+
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="./src/img/logo.png" alt="Pokemon Logo" class="logo">
+  </header>
+
+  <main>
+    <section class="filters">
+      <div class="filter-group">
+        <label for="type">Type</label>
+        <select id="type">
+          <option>Any</option>
+          <option>Fire</option>
+          <option>Water</option>
+          <option>Ice</option>
+          <option>Electric</option>
+          <option>Normal</option>
+          <option>Ghost</option>
+          <option>Poison</option>
+          <option>Dark</option>
+          <option>Psychic</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="captured">Captured</label>
+        <select id="captured">
+          <option>Any</option>
+          <option>Captured</option>
+          <option>Not Captured</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <img src="./src/img/Bulbasaur.png" alt="Bulbasaur">
+        <h2>Balbasaur</h2>
+        <p>Grass, Poison</p>
+        <div class="checkbox">
+          <input id="select1" type="checkbox">
+          <label for="select1">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Charmander.png" alt="Charmander">
+        <h2>Charmander</h2>
+        <p>Fire</p>
+        <div class="checkbox">
+          <input id="select2" type="checkbox">
+          <label for="select2">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Gengar.png" alt="Gengar">
+        <h2>Gengar</h2>
+        <p>Ghost, Poison</p>
+        <div class="checkbox">
+          <input id="select3" type="checkbox">
+          <label for="select3">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Greninja.png" alt="Greninja">
+        <h2>Greninja</h2>
+        <p>Water, Dark</p>
+        <div class="checkbox">
+          <input id="select4" type="checkbox">
+          <label for="select4">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Lapras.png" alt="Lapras">
+        <h2>Lapras</h2>
+        <p>Water, Ice</p>
+        <div class="checkbox">
+          <input id="select5" type="checkbox">
+          <label for="select5">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Meowth.png" alt="Meowth">
+        <h2>Meowth</h2>
+        <p>Normal</p>
+        <div class="checkbox">
+          <input id="select6" type="checkbox">
+          <label for="select6">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Mewtwo.png" alt="Mewtwo">
+        <h2>Mewtwo</h2>
+        <p>Psychic</p>
+        <div class="checkbox">
+          <input id="select7" type="checkbox">
+          <label for="select7">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Pikachu.png" alt="Pikachu">
+        <h2>Pikachu</h2>
+        <p>Electric</p>
+        <div class="checkbox">
+          <input id="select8" type="checkbox">
+          <label for="select8">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Snorlax.png" alt="Snorlax">
+        <h2>Snorlax</h2>
+        <p>Normal</p>
+        <div class="checkbox">
+          <input id="select9" type="checkbox">
+          <label for="select9">Captured</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./src/img/Squirtle.png" alt="Squirtle">
+        <h2>Squirtle</h2>
+        <p>Water</p>
+        <div class="checkbox">
+          <input id="select10" type="checkbox">
+          <label for="select10">Captured</label>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
