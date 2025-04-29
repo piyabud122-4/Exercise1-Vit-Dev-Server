@@ -53,9 +53,9 @@ header {
     border: none;
     background-color: var(--theme-switch-color);
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 20px;
     right: 20px;
     cursor: pointer;
