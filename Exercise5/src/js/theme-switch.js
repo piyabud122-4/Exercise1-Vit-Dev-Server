@@ -2,20 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
     let dark = localStorage.getItem('dark-mode')
     const themeSwitch = document.getElementById('theme-switch')
 
-    const enableDarkMode = () => {
+    const enableDarkmode = () => {
         document.body.classList.add('dark-mode')
         localStorage.setItem('dark-mode', 'active')
     }
 
-    const disableDarkMode = () => {
+    const disableDarkmode = () => {
         document.body.classList.remove('dark-mode')
         localStorage.setItem('dark-mode', null)
     }
 
-    if(dark === "active") enableDarkMode()
+    if(dark === "active") enableDarkmode()
 
     themeSwitch.addEventListener("click", () => {
         dark = localStorage.getItem('dark-mode')
-        dark !== "active" ? enableDarkMode() : disableDarkMode()
+        dark !== "active" ? enableDarkmode() : disableDarkmode()
     })
 })
